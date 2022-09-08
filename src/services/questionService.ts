@@ -10,7 +10,9 @@ export async function createQuestion(question: TypeInsertQuestions) {
 
 export async function getQuestions() {
     const allQuestions = getAllQuestions()
-
+    if (allQuestions === null) {
+        throw { errorType: "no-content" }
+    }
     return { questions: allQuestions }
 }
 
