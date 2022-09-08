@@ -4,6 +4,6 @@
 - [ x ] Criar as models do prisma referente as tabelas que terão
 - [ X ] Criar as migrations
 - [ X ] Criar os tipos/interface para o `answer` e `question`
-- [ ] Finalizar a implementação do controller
-- [ ] Implementar os services
-- [ ] Implementar os repositories
+- [ X ] Finalizar a implementação do controller
+- [ X ] Implementar os services
+- [ X ] Implementar os repositories

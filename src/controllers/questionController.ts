@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import * as questionService from "../services/questionService"
 import * as answerService from "../services/answerService"
 
+
 export async function createQuestion(req: Request, res: Response) {
   const {askedBy,question}  : {askedBy:string,question:string} = req.body;
    await questionService.createQuestion({askedBy,question})
