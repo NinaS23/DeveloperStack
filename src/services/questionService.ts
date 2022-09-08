@@ -29,9 +29,8 @@ export async function getById(questionId: number) {
         "id": questionExist.id,
         "askedBy": questionExist.askedBy,
         "question": questionExist.question,
-        "answers": [
-            arrAnsewrs
-        ]
+        "answers":  arrAnsewrs
+        
     }
     return objFinal;
 }
